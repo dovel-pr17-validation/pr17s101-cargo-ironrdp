@@ -24,7 +24,7 @@ aac = []
 capture = ["dep:ironrdp-rdpeai"]
 
 [dependencies]
-cpal = "0.17"
+cpal = "0.17.3"
 ironrdp-core = { path = "../ironrdp-core", version = "0.3", features = ["alloc"] }
 ironrdp-error = { path = "../ironrdp-error", version = "0.2", features = ["std"] } # public
 ironrdp-rdpeai = { path = "../ironrdp-rdpeai", version = "0.2", optional = true } # public
